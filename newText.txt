@@ -1,0 +1,12 @@
+As we move from Phabricator to using Pull Requests we will introduce a branch naming policy. This is to help prevent the number and names of branches becoming out of control. Branches will be easier to identify, organize and clean up.
+
+Policy
+Please begin all branch names with either feature or bug followed by a slash and then your ticket or any other branch name details.
+
+feature/
+
+bug/
+
+For example fixing a bug could include the Jira ticket number and a description but must begin with ‘bug/.’ As example:
+
+git checkout -b bug/NEX-4539-FixGitHookScript
